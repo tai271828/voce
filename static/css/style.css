@@ -317,7 +317,7 @@ article.post:first-child .post-inner-content {
 }
 .entry-title {
   font-family: "Lora", serif;
-  font-style: italic;
+  font-weight: 900;
   margin-top: 0;
   margin-bottom: 15px;
 }
