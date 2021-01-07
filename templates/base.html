@@ -18,10 +18,6 @@
   
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-
-  
- 
 
   {% if FEED_ALL_ATOM %}
   <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
@@ -99,6 +95,9 @@
 {%- endmacro -%}
 
 <body class="home blog">
+
+  {% include "modules/analytics-body.html" %}
+
   <div>
     <header class="site-header">
       <nav class="navbar navbar-default" role="navigation">
